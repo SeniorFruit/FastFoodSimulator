@@ -1,29 +1,10 @@
 # Fast Food Simulator — WPF
 
-Симулятор закусочной на **C# / WPF / .NET 9**. Один проект — открывается в Visual Studio
-и запускается по **F5** без настройки стартовых проектов.
+Симулятор закусочной на **C# / WPF / .NET 9**.
 
-## Запуск в Visual Studio
-
-1. Откройте `FastFoodSimulator.sln`.
-2. Нажмите **F5**.
-
-Единственный проект решения — `FastFoodSimulator` — уже является запускаемым.
-Нужна Visual Studio 2022 **17.12+** (или новее) с workload **.NET desktop development**
-и установленным .NET 9 SDK. Сторонние NuGet-пакеты не используются.
+Единственный проект решения — `FastFoodSimulator`
 
 Запуск из консоли тоже работает:
-
-```powershell
-dotnet run --project FastFoodSimulator/FastFoodSimulator.csproj
-```
-
-Готовая сборка:
-
-```powershell
-dotnet build FastFoodSimulator.sln -c Release
-.\FastFoodSimulator\bin\Release\net9.0-windows\FastFoodSimulator.exe
-```
 
 ## Скриншот
 
