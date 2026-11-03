@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>FastFoodSimulator</RootNamespace>
+    <AssemblyName>FastFoodSimulator</AssemblyName>
+    <StartupObject>FastFoodSimulator.Program</StartupObject>
+  </PropertyGroup>
+
+</Project>
